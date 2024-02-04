@@ -10,13 +10,13 @@ body {
 }
 
 #todo-container {
-    background-color: #cccccc29; /* Replace with the path to your image */
+    background-color: #cccccc29; 
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 0 10px #f87d03;
     width: 300px;
     padding: 20px;
-    color: #fff; /* Set text color to white or another color that contrasts well with the background */
+    color: #fff; 
 }
 
 
