@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('wolf-low-poly-3840x2160-12196.png');
+    background-size: cover;
+}
+
+#todo-container {
+    background-color: #cccccc29; /* Replace with the path to your image */
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #f87d03;
+    width: 300px;
+    padding: 20px;
+    color: #fff; /* Set text color to white or another color that contrasts well with the background */
+}
+
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task button {
+    background-color: #ff5454;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
